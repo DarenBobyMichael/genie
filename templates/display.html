@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genie - Prompt</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='display_style.css') }}">    
+</head>
+<body>
+<div class="topnav">
+    <a href="/">Genie</a>
+</div>
+<div class="center-container">
+    {% if prompt_answer %}
+    <textarea readonly="readonly" 
+        cols="15" 
+        rows="5"
+        id="prompt_answer">
+        {{ prompt_answer }}
+    </textarea>
+    <!-- Show user input below form -->
+    {% endif %}
+    
+
+</div>
+    
+</body>
+</html>

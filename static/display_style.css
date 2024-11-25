@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    background-color: #000000;
+    color:#ffffff /* Light background */
+}
+
+.topnav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.topnav a {
+    margin: 0;
+    font-size: 75px;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: PaleGoldenRod;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+  
+.topnav a:hover { 
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+}
+
+
+
+#prompt_answer {
+    border: none;          /* Removes the border */
+    outline: none;         /* Removes the focus outline */
+    background: none;      /* Removes the background */
+    color: black;          /* Adjust the text color as needed */
+    font-size: 32px;       /* Optional: Set the font size */
+    text-align: left;
+    width: 300%;           /* Make it span the entire width of its container */
+    height: 400%;         /* Adjust the height as needed */
+    padding-left: 100%;         /* Add padding for a better appearance */
+    box-sizing: border-box;
+    resize: none;
+    margin-top: 100%;
+    color: #ffffff;
+    
+    /* Ensures padding is included in width/height */
+}

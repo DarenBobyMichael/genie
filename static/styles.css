@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color:#ffffff /* Light background */
+}
+
+.center-container {
+    text-align: center;
+}
+
+
+.main-text {
+    margin: 0;
+    font-size: 18rem;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: PaleGoldenRod;
+    outline: none;
+    text-align: center;
+}
+  
+.main-text:hover { 
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+}
+
+.subtext {
+    font-size: 1.5rem; /* Smaller subtext size */
+    margin-top: 0.5rem;
+    font-style: italic;
+    
+}
+
+#input_prompt{
+    border: none;          /* Removes the border */
+    outline: none;         /* Removes the focus outline */
+    background: none;      /* Removes the background */
+    color: white;          /* Adjust the text color as needed */
+    font-size: 16px;       /* Optional: Set the font size */
+    width: 25%;    
+}
+
+#input_prompt::placeholder{
+    color:rgba(255, 255, 255, 0.289)
+}
+
+
+
+

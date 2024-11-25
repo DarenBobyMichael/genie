@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genie - Main</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">    
+</head>
+<body>
+    <div class="center-container">
+        <h1 class="main-text">Genie</h1>
+        <div class="subtext">
+            <form method="POST">
+                <!-- Added 'name' attribute to the input field -->
+                <p>Help me</p>
+                <input type="text" name="input_prompt" id="input_prompt" placeholder="create a blog channel" autocomplete="off" autofocus required/>
+                <input type="submit" hidden/>
+            </form>
+        </div>
+        <!-- Show user input below form -->
+
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
