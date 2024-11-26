@@ -19,7 +19,7 @@ Make sure you have the following installed:
     Clone the repository
     Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/genie.git
+git clone https://github.com/DarenBobyMichael/genie.git
 cd genie
 
 Install dependencies
