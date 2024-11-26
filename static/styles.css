@@ -16,7 +16,7 @@ body {
 
 .main-text {
     margin: 0;
-    font-size: 18rem;
+    font-size: 18vh;
     text-transform: uppercase;
     font-family: 'Gambetta', serif;
     letter-spacing: -3px;

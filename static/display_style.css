@@ -2,8 +2,8 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: left;
-    align-items: left;
+    /* justify-content: left;
+    align-items: left; */
     height: 100vh;
     background-color: #000000;
     color:#ffffff /* Light background */
@@ -39,22 +39,28 @@ body {
     letter-spacing: 1px;
 }
 
-
-
-#prompt_answer {
-    border: none;          /* Removes the border */
-    outline: none;         /* Removes the focus outline */
-    background: none;      /* Removes the background */
-    color: black;          /* Adjust the text color as needed */
-    font-size: 32px;       /* Optional: Set the font size */
-    text-align: left;
-    width: 300%;           /* Make it span the entire width of its container */
-    height: 400%;         /* Adjust the height as needed */
-    padding-left: 100%;         /* Add padding for a better appearance */
-    box-sizing: border-box;
-    resize: none;
-    margin-top: 100%;
-    color: #ffffff;
-    
-    /* Ensures padding is included in width/height */
+.center-container {
+    width: 90%; /* Adjusts to fit most screens */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding fits within width */
 }
+
+/* Prompt Answer Styling */
+#prompt_answer {
+    border: none; /* Remove border for a clean look */
+    outline: none; /* Remove the blue border on focus */
+    background: none; /* Transparent background */
+    color: #ffffff; /* White text for a dark background */
+    font-size: 32px; /* Comfortable font size */
+    text-align: left; /* Left-align text */
+    width: 100%; /* Fill the width of the container */
+    padding: 20px; /* Add some inner spacing */
+    box-sizing: border-box; /* Padding is included in width/height */
+    resize: none; /* Disable manual resizing */
+    overflow: hidden; /* Prevent scrollbars from appearing */
+    word-break: break-word;
+    margin-top: 6%; /* Break long words to avoid overflow */
+}
+
+
