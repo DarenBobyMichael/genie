@@ -1,4 +1,4 @@
-#Genie - Chat LLMs Simplified 🤖💬#
+# Genie - Chat LLMs Simplified 🤖💬
 
 Genie is a minimal web app built with Flask, designed to help users with limited technical knowledge interact with advanced chat models like ChatGPT. The app offers a simple, easy-to-use interface for communicating with powerful language models.
 Features 🌟
@@ -7,15 +7,15 @@ Features 🌟
     Chat with language models like ChatGPT 🤖
     Easy setup using environment variables 🔑
 
-##Installation 🛠️##
-###Prerequisites ⚙️###
+## Installation 🛠️
+### Prerequisites ⚙️
 
 Make sure you have the following installed:
 
     Python 3.7+ 🐍
     pip (Python package installer) 📦
 
-###Steps 🚀###
+### Steps 🚀
 
     Clone the repository
     Clone the repository to your local machine:
@@ -51,7 +51,7 @@ Start the application with:
 
     The app should now be running at http://127.0.0.1:5000/ 🌐.
 
-###Usage 📱###
+### Usage 📱
 
 Once the app is running, open a web browser and go to http://127.0.0.1:5000/. You can start chatting with the model by typing in the input box and receiving responses 🗨️.
 
