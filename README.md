@@ -5,7 +5,6 @@ Features 🌟
 
     Simple and intuitive user interface 🖥️
     Chat with language models like ChatGPT 🤖
-    Easy setup using environment variables 🔑
 
 ## Installation 🛠️
 ### Prerequisites ⚙️
